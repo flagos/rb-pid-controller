@@ -2,7 +2,7 @@
 require "rubygems"
 require "rake"
 
-GEMSPEC = Gem::Specification.new do |s|
+gemspec = Gem::Specification.new do |s|
   s.name = "rb-pid-controller"
   s.summary = "Library for creating PID controllers"
   s.description = <<-EOF
